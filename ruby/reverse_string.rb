@@ -1,5 +1,5 @@
 def reverse_string(str)
-  # type your code in here
+  str.reverse
 end
 
 if __FILE__ == $PROGRAM_NAME
@@ -11,8 +11,10 @@ if __FILE__ == $PROGRAM_NAME
   puts "Expecting: 'ybabtac'"
   puts "=>", reverse_string('catbaby')
 
-  # Don't forget to add your own!
+  puts
+
+  puts "Expecting: 'olleh'"
+  puts "=>", reverse_string('hello')
 end
 
-# Please add your pseudocode to this file
-# And a written explanation of your solution
+# the .reverse method in Ruby simply reverses the string it is given the method too and implicitly return it when put into a function
